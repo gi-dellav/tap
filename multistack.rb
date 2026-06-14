@@ -4,7 +4,7 @@ class Multistack < Formula
   version "1.0.0-rc6"
   license "GPL-3.0-only"
 
-  depends_on "zerostack"
+  depends_on "gi-dellav/tap/zerostack"
 
   on_macos do
     if Hardware::CPU.intel?
